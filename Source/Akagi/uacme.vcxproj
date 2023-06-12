@@ -46,7 +46,7 @@
     <ProjectGuid>{210A3DB2-11E3-4BB4-BE7D-554935DCCA43}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>uacme</RootNamespace>
-    <ProjectName>Akagi</ProjectName>
+    <ProjectName>XDDApp</ProjectName>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -440,7 +440,7 @@
       <AdditionalManifestFiles>akagi.manifest</AdditionalManifestFiles>
     </Manifest>
     <PostBuildEvent>
-      <Command>\Utils\StripDebug.exe .\output\$(Platform)\$(Configuration)\Akagi32.exe</Command>
+      <Command>\Utils\StripDebug.exe .\output\$(Platform)\$(Configuration)\XDDApp32.exe</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseInternalConsole|Win32'">
@@ -486,7 +486,7 @@
       <AdditionalManifestFiles>akagi.manifest</AdditionalManifestFiles>
     </Manifest>
     <PostBuildEvent>
-      <Command>\Utils\StripDebug.exe .\output\$(Platform)\$(Configuration)\Akagi32.exe</Command>
+      <Command>\Utils\StripDebug.exe .\output\$(Platform)\$(Configuration)\XDDApp32.exe</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -575,7 +575,7 @@
       <AdditionalManifestFiles>akagi.manifest</AdditionalManifestFiles>
     </Manifest>
     <PostBuildEvent>
-      <Command>\Utils\StripDebug.exe .\output\$(Platform)\$(Configuration)\Akagi64.exe</Command>
+      <Command>\Utils\StripDebug.exe .\output\$(Platform)\$(Configuration)\XDDApp64.exe</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseInternalConsole|x64'">
@@ -619,7 +619,7 @@
       <AdditionalManifestFiles>akagi.manifest</AdditionalManifestFiles>
     </Manifest>
     <PostBuildEvent>
-      <Command>\Utils\StripDebug.exe .\output\$(Platform)\$(Configuration)\Akagi64.exe</Command>
+      <Command>\Utils\StripDebug.exe .\output\$(Platform)\$(Configuration)\XDDApp64.exe</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
