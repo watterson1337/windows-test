@@ -2,11 +2,11 @@
 <assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
     <assemblyIdentity 
         type="win32" 
-        name="Akagi"
+        name="XDDApp"
         version="1.0.0.0"
         processorArchitecture="*"
     />
-    <description>Akagi was an aircraft carrier of the Imperial Japanese Navy (IJN), named after Mount Akagi in present-day Gunma Prefecture.</description>
+    <description>I Love Hamburgers</description>
     <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
         <security>
             <requestedPrivileges>
